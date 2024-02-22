@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className='app'>
       <Nav />
-      <Banner fetchUrl={requests.bannerMovies} />
+      <Banner fetchUrl={requests.four} />
       <Row title="NETFLIX ORIGINALS" fetchUrl={requests.bannerMovies}
         isLargeRow={true} />
       <Row title="Top Rated" fetchUrl={requests.one} isLargeRow={true} />
